@@ -16,7 +16,7 @@ end
 
 def printer(attendees)
   badges_and_room_assignments = []
-  batch_badge_creator(attendees).each.with { |line| << assign_rooms(attendees) }
+  batch_badge_creator(attendees).each { |line| << assign_rooms(attendees) }
   badges_and_room_assignments << batch_badge_creator(attendees)
 
 end
