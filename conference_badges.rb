@@ -15,8 +15,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badges_and_room_assignments = []
-  batch_badge_creator.each { |print| puts print }
-  assign_rooms.eaach { |print| puts print}
-  badges_and_room_assignments(print)
+  batch_badge_creator.each { |x| puts print }
+  assign_rooms.eaach { |x| puts print}
 end
