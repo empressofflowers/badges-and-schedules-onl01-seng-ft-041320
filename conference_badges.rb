@@ -15,6 +15,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  badges_and_room_assignments = []
   badges_and_room_assignments.each { |line| }
   printer(attendees)
 end
